@@ -32,4 +32,5 @@ def draw?(board)
 end
 
 def over?(board)
-  
+  won?(board) && full?(board)
+end
